@@ -19,6 +19,7 @@ jobs:
       - name: Update README
         uses: anmol098/waka-readme-stats@master
         with:
+          DEBUG: true
           GH_TOKEN: ${{ secrets.GH_PAT }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_PROFILE_VIEWS: false
